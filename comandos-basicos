@@ -1,0 +1,9 @@
+Por lo general, no se debe trabajar en la rama principal master. Se debe crear una nueva por cada funcionalidad que luego será 'mergeada' junto con las demás al master.
+
+Para crear una rama nueva en local: git checkout -b "nombre_rama"
+
+Para bajarse el código del repositorio en GitHub de una rama distinta git pull origin <nombre_rama>
+
+Para subir el código a la rama del repositorio en GitHub: git push origin <nombre_rama>
+
+EDIT: Si se hace un git pull, se bajan todas las ramas. Se puede cambiar de rama en el momento con git checkout "nombre_rama" si ya está creada.
